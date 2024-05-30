@@ -1,0 +1,62 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+
+.Leftside{
+  margin-top:150px;
+  width: 350px;
+  height: 450px;
+  float: left;
+  margin-left: 40%;
+  font-size: 50px;
+  background-color: lightskyblue;
+  text-align: center;
+
+}
+
+.formname{
+  font-size:40px;
+}
+
+
+.registerItem{
+  display: inline-block;
+}
+
+.button {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #787878;
+  border-radius: 10px;
+  border: 4px double darkgrey;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.button:hover {
+  background-color: darkslategrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button:active {
+  background-color: slategrey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
